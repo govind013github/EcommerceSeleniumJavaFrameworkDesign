@@ -1,0 +1,13 @@
+[
+{
+  "firstname": "testuser",
+  "lastname": "demo",
+  "email": "sam013@mailinator.com",
+  "phonenumber": "9024276541",
+  "occupation": "Student",
+  "gender": "Male",
+  "password": "Test@123",
+  "confirmpassword": "Test@123",
+  "checkbox": true
+}
+]

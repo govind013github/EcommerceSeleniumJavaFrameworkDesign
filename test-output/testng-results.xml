@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-14T13:49:44 IST" name="Suite" finished-at="2023-08-14T13:51:22 IST" duration-ms="97404">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:govindqalab.tests.ErrorValidationsTest@10cf09e8]" name="LoginErrorValidation" class="govindqalab.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" name="submitOrder" class="govindqalab.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-08-14T13:49:44 IST" name="Submit Order Test" finished-at="2023-08-14T13:50:21 IST" duration-ms="36719">
+      <class name="govindqalab.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" started-at="2023-08-14T13:49:45 IST" name="launchApplication" finished-at="2023-08-14T13:49:53 IST" duration-ms="8397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" started-at="2023-08-14T13:49:53 IST" name="submitOrder" data-provider="getData" finished-at="2023-08-14T13:50:01 IST" duration-ms="8363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Govind@123, product=zara coat 3, email=govind013@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" started-at="2023-08-14T13:50:01 IST" name="tearDown" finished-at="2023-08-14T13:50:02 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" started-at="2023-08-14T13:50:02 IST" name="launchApplication" finished-at="2023-08-14T13:50:06 IST" duration-ms="4074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" started-at="2023-08-14T13:50:06 IST" name="submitOrder" data-provider="getData" finished-at="2023-08-14T13:50:14 IST" duration-ms="8086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Govind@123, product=ADIDAS ORIGINAL, email=sam02@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" started-at="2023-08-14T13:50:14 IST" name="tearDown" finished-at="2023-08-14T13:50:14 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" started-at="2023-08-14T13:50:14 IST" name="launchApplication" finished-at="2023-08-14T13:50:20 IST" duration-ms="5997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" started-at="2023-08-14T13:50:20 IST" name="OrderHistoryTest" finished-at="2023-08-14T13:50:21 IST" depends-on-methods="govindqalab.tests.SubmitOrderTest.submitOrder" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.SubmitOrderTest@66c61024]" started-at="2023-08-14T13:50:21 IST" name="tearDown" finished-at="2023-08-14T13:50:21 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- govindqalab.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2023-08-14T13:50:22 IST" name="Error Validations Test" finished-at="2023-08-14T13:50:37 IST" duration-ms="15803">
+      <class name="govindqalab.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.ErrorValidationsTest@10cf09e8]" started-at="2023-08-14T13:50:22 IST" name="launchApplication" finished-at="2023-08-14T13:50:26 IST" duration-ms="4876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:govindqalab.tests.ErrorValidationsTest@10cf09e8]" started-at="2023-08-14T13:50:26 IST" name="LoginErrorValidation" finished-at="2023-08-14T13:50:27 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.ErrorValidationsTest@10cf09e8]" started-at="2023-08-14T13:50:27 IST" name="tearDown" finished-at="2023-08-14T13:50:27 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.ErrorValidationsTest@10cf09e8]" started-at="2023-08-14T13:50:27 IST" name="launchApplication" finished-at="2023-08-14T13:50:31 IST" duration-ms="4012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:govindqalab.tests.ErrorValidationsTest@10cf09e8]" started-at="2023-08-14T13:50:31 IST" name="ProductErrorValidation" finished-at="2023-08-14T13:50:37 IST" duration-ms="6199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.ErrorValidationsTest@10cf09e8]" started-at="2023-08-14T13:50:37 IST" name="tearDown" finished-at="2023-08-14T13:50:37 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- govindqalab.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2023-08-14T13:50:37 IST" name="Filter Product Test" finished-at="2023-08-14T13:50:48 IST" duration-ms="10871">
+      <class name="govindqalab.tests.FilterProducts">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.FilterProducts@6ed3f258]" started-at="2023-08-14T13:50:38 IST" name="launchApplication" finished-at="2023-08-14T13:50:41 IST" duration-ms="3986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SearchProductCatalouge(java.util.HashMap)[pri:0, instance:govindqalab.tests.FilterProducts@6ed3f258]" started-at="2023-08-14T13:50:41 IST" name="SearchProductCatalouge" data-provider="getData" finished-at="2023-08-14T13:50:43 IST" duration-ms="1438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Govind@123, product=zara coat 3, email=govind013@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductCatalouge -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.FilterProducts@6ed3f258]" started-at="2023-08-14T13:50:43 IST" name="tearDown" finished-at="2023-08-14T13:50:43 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.FilterProducts@6ed3f258]" started-at="2023-08-14T13:50:43 IST" name="launchApplication" finished-at="2023-08-14T13:50:47 IST" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SearchProductCatalouge(java.util.HashMap)[pri:0, instance:govindqalab.tests.FilterProducts@6ed3f258]" started-at="2023-08-14T13:50:47 IST" name="SearchProductCatalouge" data-provider="getData" finished-at="2023-08-14T13:50:48 IST" duration-ms="1351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Govind@123, product=ADIDAS ORIGINAL, email=sam02@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductCatalouge -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.FilterProducts@6ed3f258]" started-at="2023-08-14T13:50:48 IST" name="tearDown" finished-at="2023-08-14T13:50:48 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- govindqalab.tests.FilterProducts -->
+    </test> <!-- Filter Product Test -->
+    <test started-at="2023-08-14T13:50:48 IST" name="Remove Product from cart Test" finished-at="2023-08-14T13:51:09 IST" duration-ms="20708">
+      <class name="govindqalab.tests.RemoveProductFromCart">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.RemoveProductFromCart@42039326]" started-at="2023-08-14T13:50:48 IST" name="launchApplication" finished-at="2023-08-14T13:50:52 IST" duration-ms="3803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="DeleteOrder(java.util.HashMap)[pri:0, instance:govindqalab.tests.RemoveProductFromCart@42039326]" started-at="2023-08-14T13:50:52 IST" name="DeleteOrder" data-provider="getData" finished-at="2023-08-14T13:50:59 IST" duration-ms="6419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Govind@123, product=zara coat 3, email=govind013@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.RemoveProductFromCart@42039326]" started-at="2023-08-14T13:50:59 IST" name="tearDown" finished-at="2023-08-14T13:50:59 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.RemoveProductFromCart@42039326]" started-at="2023-08-14T13:50:59 IST" name="launchApplication" finished-at="2023-08-14T13:51:03 IST" duration-ms="3852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="DeleteOrder(java.util.HashMap)[pri:0, instance:govindqalab.tests.RemoveProductFromCart@42039326]" started-at="2023-08-14T13:51:03 IST" name="DeleteOrder" data-provider="getData" finished-at="2023-08-14T13:51:09 IST" duration-ms="6410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Govind@123, product=ADIDAS ORIGINAL, email=sam02@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.RemoveProductFromCart@42039326]" started-at="2023-08-14T13:51:09 IST" name="tearDown" finished-at="2023-08-14T13:51:09 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- govindqalab.tests.RemoveProductFromCart -->
+    </test> <!-- Remove Product from cart Test -->
+    <test started-at="2023-08-14T13:51:09 IST" name="Search Product from Catalouge Test" finished-at="2023-08-14T13:51:22 IST" duration-ms="12455">
+      <class name="govindqalab.tests.SearchProduct">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.SearchProduct@7d1cfb8b]" started-at="2023-08-14T13:51:09 IST" name="launchApplication" finished-at="2023-08-14T13:51:13 IST" duration-ms="3970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SearchProductCatalouge(java.util.HashMap)[pri:0, instance:govindqalab.tests.SearchProduct@7d1cfb8b]" started-at="2023-08-14T13:51:13 IST" name="SearchProductCatalouge" data-provider="getData" finished-at="2023-08-14T13:51:15 IST" duration-ms="1663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Govind@123, product=zara coat 3, email=govind013@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductCatalouge -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.SearchProduct@7d1cfb8b]" started-at="2023-08-14T13:51:15 IST" name="tearDown" finished-at="2023-08-14T13:51:15 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:govindqalab.tests.SearchProduct@7d1cfb8b]" started-at="2023-08-14T13:51:15 IST" name="launchApplication" finished-at="2023-08-14T13:51:20 IST" duration-ms="4926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SearchProductCatalouge(java.util.HashMap)[pri:0, instance:govindqalab.tests.SearchProduct@7d1cfb8b]" started-at="2023-08-14T13:51:20 IST" name="SearchProductCatalouge" data-provider="getData" finished-at="2023-08-14T13:51:22 IST" duration-ms="1539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Govind@123, product=ADIDAS ORIGINAL, email=sam02@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductCatalouge -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:govindqalab.tests.SearchProduct@7d1cfb8b]" started-at="2023-08-14T13:51:22 IST" name="tearDown" finished-at="2023-08-14T13:51:22 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- govindqalab.tests.SearchProduct -->
+    </test> <!-- Search Product from Catalouge Test -->
+  </suite> <!-- Suite -->
+</testng-results>

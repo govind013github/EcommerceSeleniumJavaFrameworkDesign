@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Suite">
+
+	<listeners>
+		<listener class-name="govindqalab.TestComponents.Listeners" />
+	</listeners>
+
+	<test thread-count="1" name="Submit Order Test">
+		<classes>
+			<class name="govindqalab.tests.SubmitOrderTest"/>
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="1" name="Error Validations Test">
+		<classes>
+			<class name="govindqalab.tests.ErrorValidationsTest"/>
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="1" name="Filter Product Test">
+		<classes>
+			<class name="govindqalab.tests.FilterProducts"/>
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="1" name="Remove Product from cart Test">
+		<classes>
+			<class name="govindqalab.tests.RemoveProductFromCart"/>
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="1" name="Search Product from Catalouge Test">
+		<classes>
+			<class name="govindqalab.tests.SearchProduct"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="1" name="Search Product from Catalouge Test">
+		<classes>
+			<class name="govindqalab.TestComponents.BaseTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
