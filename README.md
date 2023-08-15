@@ -1,5 +1,5 @@
 # EcommerceSeleniumJavaFrameworkDesign
-i have Automated Ecommerce website using Selenium-Java.
+i have Automated Ecommerce website using Selenium-Java. (Please refer master Branch)
 
 
 # Selenium Java Ecommerce Web Automation
