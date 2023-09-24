@@ -15,19 +15,6 @@ This repository contains automated tests for an Ecommerce website using the Sele
 - [TestNG Framework](#testng-framework)
 - [Contributing](#contributing)
 
-# Ecommerce Selenium Java Framework Design
-
-This repository contains automated tests for an Ecommerce website using the Selenium WebDriver, Java programming language, Page Object Model (POM) design pattern, and TestNG testing framework.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Page Object Model](#page-object-model)
-- [TestNG Framework](#testng-framework)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
