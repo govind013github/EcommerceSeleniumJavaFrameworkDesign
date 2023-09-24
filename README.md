@@ -82,7 +82,7 @@ src/
             └── ...
 
 TestNG Framework
-TestNG is used for test orchestration and execution. TestNG provides various features such as grouping, parallel execution, and reporting. TestNG configuration allows customization of test execution behavior, such as defining test suites and setting up test dependencies.
+TestNG is used for test orchestration and execution. TestNG provides various features such as grouping,parallel execution, and reporting. TestNG configuration allows customization of test execution behavior, such as defining test suites and setting up test dependencies.
 
 Contributing
 Contributions to this project are welcome! If you find any issues or want to add new features, feel free to open a pull request. Please ensure that your code follows the established coding standards and includes appropriate tests.
