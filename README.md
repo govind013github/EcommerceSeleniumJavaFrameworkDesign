@@ -1,9 +1,7 @@
 # EcommerceSeleniumJavaFrameworkDesign
 i have Automated Ecommerce website using Selenium-Java. (Please refer master Branch)
 
-
 # Selenium Java Ecommerce Web Automation
-
 This repository contains automated tests for an Ecommerce website using the Selenium WebDriver, Java programming language, Page Object Model (POM) design pattern, and TestNG testing framework.
 
 ## Table of Contents
