@@ -83,12 +83,7 @@ TestNG is used for test orchestration and execution. TestNG provides various fea
 
 Contributions to this project are welcome! If you find any issues or want to add new features, feel free to open a pull request. Please ensure that your code follows the established coding standards and includes appropriate tests.
 
----
-
 Feel free to customize this README to match the specifics of your project. Make sure to update placeholders (such as repository URL, file paths, etc.) with your actual project details.
-```
-
-Remember to replace placeholders (`yourusername`, etc.) with your actual project details and customize the README as needed.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
