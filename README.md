@@ -1,7 +1,5 @@
-# EcommerceSeleniumJavaFrameworkDesign
-i have Automated Ecommerce website using Selenium-Java. (Please refer master Branch)
+# Ecommerce Selenium Java Framework Design
 
-# Selenium Java Ecommerce Web Automation
 This repository contains automated tests for an Ecommerce website using the Selenium WebDriver, Java programming language, Page Object Model (POM) design pattern, and TestNG testing framework.
 
 ## Table of Contents
@@ -12,7 +10,7 @@ This repository contains automated tests for an Ecommerce website using the Sele
 - [Page Object Model](#page-object-model)
 - [TestNG Framework](#testng-framework)
 - [Contributing](#contributing)
-
+- [License](#license)
 
 ## Introduction
 
@@ -24,26 +22,37 @@ This project aims to demonstrate the automation of Ecommerce website testing usi
 
 ```bash
 git clone https://github.com/govind013github/EcommerceSeleniumJavaFrameworkDesign.git
+```
 
-1.Install Java Development Kit (JDK) version 11 if not already installed.
-2.Install Maven (if not already installed) for managing project dependencies.
-3.Download and set up the WebDriver (Chrome, Firefox, etc.) compatible with your browser version.
+2. Install Java Development Kit (JDK) version 11 if not already installed.
+3. Install Maven (if not already installed) for managing project dependencies.
+4. Download and set up the WebDriver (Chrome, Firefox, etc.) compatible with your browser version.
 
+## Usage
 
-Usage
-1.Navigate to the project directory:
+1. Navigate to the project directory:
+
+```bash
 cd EcommerceSeleniumJavaFrameworkDesign
+```
 
-Build the project:
+2. Build the project:
+
+```bash
 mvn clean install
+```
 
-Run the tests:
+3. Run the tests:
+
+```bash
 mvn test
+```
 
+## Page Object Model
 
-Page Object Model
 The Page Object Model (POM) design pattern is employed to organize and structure the automation framework. Each page of the Ecommerce website has a corresponding Page Object class, encapsulating the page's elements and interactions. This separation allows for easy maintenance and enhances test readability.
 
+```
 src/
 └── main/
 │   └── java/
@@ -64,12 +73,22 @@ src/
         └── utils/
             ├── TestBase.java
             └── ...
+```
 
-TestNG Framework
-TestNG is used for test orchestration and execution. TestNG provides various features such as grouping,parallel execution, and reporting. TestNG configuration allows customization of test execution behavior, such as defining test suites and setting up test dependencies.
+## TestNG Framework
 
-Contributing
+TestNG is used for test orchestration and execution. TestNG provides various features such as grouping, parallel execution, and reporting. TestNG configuration allows customization of test execution behavior, such as defining test suites and setting up test dependencies.
+
+## Contributing
+
 Contributions to this project are welcome! If you find any issues or want to add new features, feel free to open a pull request. Please ensure that your code follows the established coding standards and includes appropriate tests.
+
+---
+
+Feel free to customize this README to match the specifics of your project. Make sure to update placeholders (such as repository URL, file paths, etc.) with your actual project details.
+```
+
+Remember to replace placeholders (`yourusername`, etc.) with your actual project details and customize the README as needed.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -112,3 +131,6 @@ Following Below Steps are Implemented in Designing the Selenium-Java Ecommerce A
     - Integrated the TestNG Maven plugin to facilitate running framework tests using Maven commands. Refer to the POM.xml file for more details regarding project dependency setup.
 
 By following these steps, I have established a robust and modular Selenium-Java ecommerce application framework, enabling efficient test automation and comprehensive reporting. This framework ensures streamlined test execution and management, contributing to effective software quality assurance practices.
+
+
+
