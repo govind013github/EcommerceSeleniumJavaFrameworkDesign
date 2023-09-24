@@ -14,7 +14,6 @@ This repository contains automated tests for an Ecommerce website using the Sele
 - [Page Object Model](#page-object-model)
 - [TestNG Framework](#testng-framework)
 - [Contributing](#contributing)
-- [License](#license)
 
 # Ecommerce Selenium Java Framework Design
 
@@ -89,7 +88,7 @@ Contributions to this project are welcome! If you find any issues or want to add
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-Below Steps Implemented in Designing the Selenium-Java Ecommerce Application Framework from Scratch.
+Following Below Steps are Implemented in Designing the Selenium-Java Ecommerce Application Framework from Scratch.
 
 1. Creating the Maven Structure:
    - Created a structured Maven framework with all the necessary automation dependencies, including Selenium, Java, TestNG, and Maven. This was done using Eclipse as the IDE.
