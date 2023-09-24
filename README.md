@@ -39,7 +39,7 @@ This project aims to demonstrate the automation of Ecommerce website testing usi
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/EcommerceSeleniumJavaFrameworkDesign.git
+git clone https://github.com/govind013github/EcommerceSeleniumJavaFrameworkDesign.git
 
 1.Install Java Development Kit (JDK) version 11 if not already installed.
 2.Install Maven (if not already installed) for managing project dependencies.
